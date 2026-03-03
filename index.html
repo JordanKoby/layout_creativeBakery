@@ -1,0 +1,677 @@
+<!doctype html>
+<html
+  lang="en"
+  class="page"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Сreative Bakery</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/layout_creativeBakery/assets/favicon-32x32-C1ecMTIG.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/layout_creativeBakery/assets/index-Bnhpeg-v.js"></script>
+    <link rel="stylesheet" crossorigin href="/layout_creativeBakery/assets/index-D6V99KZA.css">
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="top-bar">
+        <a
+          href="#"
+          class="logo"
+        >
+          <img
+            src="/layout_creativeBakery/assets/Logo-C4tlP7Qb.svg"
+            alt="Bakerlab Logo"
+          />
+        </a>
+        <a
+          href="#menu"
+          class="icon icon--menu"
+        ></a>
+        <ul class="nav__list">
+          <li class="nav__link"><a href="#products">Products</a></li>
+          <li class="nav__link"><a href="#about-us">About Us</a></li>
+          <li class="nav__link"><a href="#blog">Blog</a></li>
+          <li class="nav__link nav__link--block">
+            <a
+              href="tel:+123455555555"
+              class="icon icon--phone"
+            ></a>
+            <a
+              href="#contact-us"
+              class="nav__link--mod"
+            >
+              Contact us
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="header__content">
+          <p class="header__text">
+            We bake your fantasies — croissants, cakes, cookies, and cupcakes.
+          </p>
+          <div class="header__block">
+            <h1 class="header__block-title">Creative bakery</h1>
+            <div class="header__block-image"></div>
+          </div>
+          <button
+            class="header__btn"
+            onclick="
+              document
+                .getElementById('about-us')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHVSURBVHgB3VXRUcJAEN09FOHHiR3gnz9iSsAOghVoBUoFQAVqB9iAcx0YKzADjr/EDvLhDBjJrXsIIcAGwvilbyYzl7vbt5t9uxuAvw7cdmHkuY0SJm0CdPnVKZM6Qh1EUBB724lNgzJxjGFiHflQEErajC/qtwrNExM3Vs9KiG3YAUoiJ4KbPAPr9OuiXtjJkgYfnuvuo3kpZIjUS0zpoaoDv7CDuHkqpoWIfFQQAaEnkWwSPk2RFVUiZ0QVPTg/eBw0EciXSGbCi0irSKnkmiMUL428k1oFxlEMWJPOZ8L70tlCZBKjt3AUlocxHg55XZMubBI+DfmzWSf4JSThM18AIeyOCJB0SkF4afsnG+zCgaIglyQvYlJT8Q1BN88mdUAG3wWOkEvw2PAjOUpg4sw81bL73KjP83VaRQQU4Mrs47IMZ/Ud8Wev8oNCZdMRwor4PL/uFhzzTc91YjS2UpxlL6SRwMnpkTXYprR9kwaR8nCkhqi1boFeUfIfwqS1/J5BVQ96gmCFwbm/L+u3pWIRW3fk1TsKYaexbMkrur82hcX/QVX3O5yuK16GsJWYfEPmXCK32PjLnAoPyXQIKqQzbiSHLexgi5g44MrrVvWrD/8a3+tJ1TX6BhbvAAAAAElFTkSuQmCC"
+              alt="cookie icon"
+            />
+            Learn more
+          </button>
+        </div>
+      </div>
+      <aside
+        class="menu page__menu"
+        id="menu"
+      >
+        <div class="menu__content">
+          <div class="top-bar">
+            <a
+              href="#"
+              class="logo"
+            >
+              <img
+                src="/layout_creativeBakery/assets/Logo-C4tlP7Qb.svg"
+                alt="Bakerlab Logo"
+              />
+            </a>
+            <a
+              href="#"
+              class="icon icon--close"
+            ></a>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__link"><a href="#products">Products</a></li>
+            <li class="menu__link"><a href="#about-us">About Us</a></li>
+            <li class="menu__link"><a href="#blog">Blog</a></li>
+            <li class="menu__link menu__link-block">
+              <a
+                href="tel:+123455555555"
+                class="icon icon--phone"
+              ></a>
+              <a
+                href="#contact-us"
+                class="menu__link-mod"
+              >
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section
+          class="products"
+          id="products"
+        >
+          <h2 class="title products__title">What we bake</h2>
+          <p class="products__text">
+            We can customize our cookies right for your needs. Just imagine it
+          </p>
+          <div class="products__wrapper">
+            <article class="product">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-DueKatNg.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-tablet-CX18JOpc.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-small-Bs5j3NQA.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-big-BhINeNp0.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-cakes-DueKatNg.png"
+                      alt="cakes photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Cakes</h3>
+                <p class="product__text">
+                  Oatmeal cookies with golden raisins, orange zest and chocolate
+                  chips
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+            <article class="product">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-1-ChvyW-uk.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-tablet-1-5akM94Nn.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-small-1-DlPzIkm6.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-big-1-DR-D37J7.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-cakes-1-ChvyW-uk.png"
+                      alt="cakes photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Cakes</h3>
+                <p class="product__text">
+                  Chocolate biscuit coffee cake topped with a buttercream and
+                  powder
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+            <article class="product product-shift">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-efrM_q8i.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-tablet-CmauvvJp.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-desktop-small-CXryvWDf.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-desktop-big-CHWIPRJv.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-donuts-efrM_q8i.png"
+                      alt="donuts photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Donuts</h3>
+                <p class="product__text">
+                  Light multi-layered croissant strewn with cinammon and almond
+                  “petals”
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+            <article class="product">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-mobile-1-DwbGiIXG.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-tablet-1-ChWNXyY_.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-desktop-small-1-BSnPcUeM.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-donuts-desktop-big-1-C1aFFunK.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-donuts-efrM_q8i.png"
+                      alt="donuts photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Donuts</h3>
+                <p class="product__text">
+                  Light multi-layered croissant strewn with coconut and nuts
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+            <article class="product">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-2-DkZw-6e4.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-tablet-2-C3xoGgMp.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-small-2-qHBCnvhf.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cakes-desktop-big-2-CbAnH2GX.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-cakes-2-DkZw-6e4.png"
+                      alt="cakes photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Cakes</h3>
+                <p class="product__text product__text--tablet">
+                  Chocolate salted caramel, Vanilla frutti pebbles
+                </p>
+                <p class="product__text product__text--desktop">
+                  Cake with chocolate salted caramel, Vanilla frutti pebbles
+                  inside
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+            <article class="product">
+              <div class="product__card">
+                <a
+                  href="#"
+                  class="product__link"
+                >
+                  <picture>
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cookies-Dt6OsdPl.png"
+                      media="(max-width: 480px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cookies-tablet-DaOFJKYz.png"
+                      media="(max-width: 768px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cookies-desktop-small-CR0OxO6O.png"
+                      media="(max-width: 1200px)"
+                    />
+                    <source
+                      srcset="/layout_creativeBakery/assets/product-cookies-desktop-big-CdZZnyHC.png"
+                      media="(min-width: 1201px)"
+                    />
+                    <img
+                      src="/layout_creativeBakery/assets/product-cookies-Dt6OsdPl.png"
+                      alt="cookies photo"
+                      class="product__photo"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
+                <h3 class="product__name">Cookies</h3>
+                <p class="product__text">
+                  Oatmeal cookies with golden raisins, orange zest and chocolate
+                  chips
+                </p>
+                <a href="#call-us">
+                  <button class="product__btn">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgB7ZKxDcIwEEXvLECiYwRKGixWYANDBoANGAFng2wAE6BswAook9BFQLjDpg3FnUkTKa+6wvffyfoAA72idov5M7MHzY6RPmS3mhmcXJmgeG3tUbonFmB5uxNzHmdi8FIJgpLaLfcG8fS9DsGPL1XeqUArSRJoJMkCqaQleGwsQyK/JOIWSWioffBfX9RkdvcmOMc5VDeflpXvTCAJTxZIw5MEmnC1QBseUbUohHtNeGQECojNGoFcCC9goDd8ADiRaXxby/nnAAAAAElFTkSuQmCC"
+                      alt="arrow icon"
+                    />
+                    order
+                  </button>
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          class="about-us"
+          id="about-us"
+        >
+          <div class="about-us__bg">
+            <picture>
+              <source
+                srcset="/layout_creativeBakery/assets/Crumbs-stats-CWLx2aGg.png"
+                media="(max-width: 480px)"
+              />
+              <source
+                srcset="/layout_creativeBakery/assets/Crumbs-stats-tablet-Co5KkEz5.png"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="/layout_creativeBakery/assets/Crumbs-stats-desktop-small-yXrW0ikN.png"
+                media="(max-width: 1200px)"
+              />
+              <source
+                srcset="/layout_creativeBakery/assets/Crumbs-stats-desktop-small-yXrW0ikN.png"
+                media="(min-width: 1201px)"
+              />
+              <img
+                src="/layout_creativeBakery/assets/Crumbs-stats-CWLx2aGg.png"
+                alt="Crumbs photo"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="about-us__title">
+            <h2 class="title">Few words About us</h2>
+          </div>
+          <div class="about-us__text">
+            <p>
+              Like many design teams, Onfido made the transition from Abstract +
+              Sketch, to Figma in the last couple of years. One of the common
+              resistance points internally before making that switch, was
+              Figma’s lack of Git-style branching that Abstract enabled. The
+              design team had come to rely on branching and had built a lot of
+              our processes around it.
+            </p>
+          </div>
+          <div
+            class="about-us__stats"
+            id="blog"
+          >
+            <div class="about-us__stats-item">
+              <span class="about-us__stats-number">2015</span>
+              <p class="about-us__stats-text">Foundation year</p>
+            </div>
+            <div class="about-us__stats-item">
+              <span class="about-us__stats-number">23</span>
+              <p class="about-us__stats-text">Stores</p>
+            </div>
+            <div class="about-us__stats-item">
+              <span class="about-us__stats-number">155</span>
+              <p class="about-us__stats-text">Companies</p>
+            </div>
+            <div class="about-us__stats-item">
+              <span class="about-us__stats-number">10k+</span>
+              <p class="about-us__stats-text">Clients</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer
+      class="footer"
+      id="contact-us"
+    >
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__menu">
+            <a
+              href="#"
+              class="footer__logo"
+            >
+              <img
+                src="/layout_creativeBakery/assets/Footer-logo-CjptV4L1.svg"
+                alt="Bakerlab Logo"
+              />
+            </a>
+            <ul class="footer-menu__list">
+              <li class="footer__item footer__item--highlight">
+                <a
+                  href="#menu"
+                  class="footer__link"
+                >
+                  Menu
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#products"
+                  class="footer__link"
+                >
+                  Products
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#about-us"
+                  class="footer__link"
+                >
+                  About Us
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#blog"
+                  class="footer__link"
+                >
+                  Blog
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#"
+                  class="footer__link"
+                >
+                  Terms & Privacy
+                </a>
+              </li>
+            </ul>
+            <ul class="footer-icon__list--tablet">
+              <li class="footer-icon__item">
+                <a
+                  href="https://www.facebook.com"
+                  class="footer-icon__link"
+                  target="_blank"
+                >
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgB7VTLEYIwEH3J+L042AFHT7RgC9CBHViCWIKVSAfGDhjGAiyBG6OjrDmIg0jCOuDBGd4pm82+t3nZCfDvEN8cJt91bnK2zgkrHbrP7ZQI4SRKdnU1AzCR+Qv3KkYH0Iu4gEPA3FQnwYUYhsAHeSPYN5AQyzc9INZWHXX3KZCr1gKodH8nGUyj+NxUxLeoAg55KwEurGOa+V5YrKXAppzT/m9LkZpGJ1XHYX2DKqkpp8WU8Rw6gKn7TgSISNnyVovKPpvfwC7A/osugUfleLxPWLU/H9NeoBfoATwA5qM+KybLYoIAAAAASUVORK5CYII="
+                    alt="facebook icon"
+                  />
+                </a>
+              </li>
+              <li class="footer-icon__item">
+                <a
+                  href="https://www.instagram.com"
+                  class="footer-icon__link"
+                  target="_blank"
+                >
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH9SURBVHgB1VVdbtpAEJ5ZA4WXit5gH6tKRe4J4t7AcIG6J0huEHKCtDcgF2h8g8INEIqiPO4NwkMkCLA7mQHbEGxMZPKSkSwvs8v3zc83a4CPbrjvoFC3V+rzOREFBKjZpY9gGAQyQDiwsBi14gdzkOAp/ObXsXb7BtDDZLTqNuL7cY5gFn7VChv/TwDPSBqkfmA8nsoPtfXXgyrgXMqhI7jh5TRx6Tm4i3Q/I/AQfkEFI/B+t+JJRBuSBIvOcgREqKE0SveTU//y6XaCsnYZoA1EGIhwtiXdYmU9eO52qAicga44wn7R3izs9BXCZdGeBPIqgyJDxEEKvux1LjmIR3kWve/X4pM9luiwDKOUwDq7LsOi17nmTPq8bMvD5byQ6NdniK4qE7Tiu6G8uYFR7o8I5/JuQm1cmYBCvw1HLNV7JYI5rHx5c3n+5sgTFc1CP4CqBB7iWiHSTNqQSLRTUVYznmyGCW1UhnFUplzrfv3fpLCRoqyk+TlLZVrLPASG6fT+QQFgWWrrvJtWPB7KUM2h7XtoBTyAYjPpIiNAJLM7gbvGsowUuoizhIVkBU6mFQ4ZT75J11kPLOEI3skU4GC7TqwJ6g/spHaCGQtqlCMQPS/5Y3EiiVmS6nKvTIa7f4J1reWGlOvb8Q2LWP6NIBEHrPs3kiocG7yPZy/jlODneEb7nwAAAABJRU5ErkJggg=="
+                    alt="instagram icon"
+                  />
+                </a>
+              </li>
+              <li class="footer-icon__item">
+                <a
+                  href="https://twitter.com"
+                  class="footer-icon__link"
+                  target="_blank"
+                >
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHCSURBVHgB7ZRfTsJAEMa/WRvA+Ce9gfXNmIh4A7xB5QLGG+AJ9AboCYwnYD2B9QYVE1/tEUg0Cig7zqIo1G2h+Mrvod3OTueb3dlZYMkMCAvCYeD34NfseFXH0VwCg3C3VtKPMWYwaFRbzGhOmBL5vmQo7SlzbAzfl/WDthNq7PEW1upM3q0VyQv+3qiepYJbAiK0FJmnD4PtEp6j8YT69RkG8vCtSC+sNl3B38KdwDDOkcMKYb+HzaZDgJPvgW+z6Tf22nZV079XAsxgyLhZ1Z3z8fdUDfpH1Sd5BZM2cYgNzB2xFxkMfUV0lSdgWG1L0ZM/AvZUDLBRB1ErLVKEcrszlbQ3HvSwXpPs2vgfSdrwU4MKvNjlUAQiijIFSMfdd/44kmEXi2I4yhSwrNsmYz6xhUVxkpLuXKeNXtrAoLq8cpvNBWX0h0obylDWsdgKiLQre6eArYUctQMjWyVpacwmMYZOsyaVy2h7wlO0BR5tVyajJmR1ONlYDp8vXuX+8RTvSxECqYOtgZ8Tuyt30mUF6sKuGPlJ/NIP90JZ0/F35n8E5BZNGLieJ7BTYJIXubZXoEYiQ5juGkrJvEGXFOITLcymJF7E4vAAAAAASUVORK5CYII="
+                    alt="twitter icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contact">
+            <h2 class="title contact-us__title">contact us</h2>
+            <ul
+              id="call-us"
+              class="footer__list"
+            >
+              <li class="footer__item footer__item--highlight">
+                <a
+                  href="#"
+                  class="footer__link"
+                >
+                  Call us
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="tel:+16295550129">(629) 555-0129</a>
+              </li>
+              <li class="footer__item">
+                <a href="tel:+16035550123">(603) 555-0123</a>
+              </li>
+              <li class="footer__item">
+                <a href="tel:+17045550127">(704) 555-0127</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__item footer__item--highlight">
+                <a
+                  href="#"
+                  class="footer__link"
+                >
+                  Email us
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="mailto:bakerlab@example.com">bakerlab@example.com</a>
+              </li>
+            </ul>
+            <div class="footer__icons">
+              <ul class="footer-icon__list">
+                <li class="footer-icon__item">
+                  <a
+                    href="https://www.facebook.com"
+                    class="footer-icon__link"
+                    target="_blank"
+                  >
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgB7VTLEYIwEH3J+L042AFHT7RgC9CBHViCWIKVSAfGDhjGAiyBG6OjrDmIg0jCOuDBGd4pm82+t3nZCfDvEN8cJt91bnK2zgkrHbrP7ZQI4SRKdnU1AzCR+Qv3KkYH0Iu4gEPA3FQnwYUYhsAHeSPYN5AQyzc9INZWHXX3KZCr1gKodH8nGUyj+NxUxLeoAg55KwEurGOa+V5YrKXAppzT/m9LkZpGJ1XHYX2DKqkpp8WU8Rw6gKn7TgSISNnyVovKPpvfwC7A/osugUfleLxPWLU/H9NeoBfoATwA5qM+KybLYoIAAAAASUVORK5CYII="
+                      alt="facebook icon"
+                    />
+                  </a>
+                </li>
+                <li class="footer-icon__item">
+                  <a
+                    href="https://www.instagram.com"
+                    class="footer-icon__link"
+                    target="_blank"
+                  >
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH9SURBVHgB1VVdbtpAEJ5ZA4WXit5gH6tKRe4J4t7AcIG6J0huEHKCtDcgF2h8g8INEIqiPO4NwkMkCLA7mQHbEGxMZPKSkSwvs8v3zc83a4CPbrjvoFC3V+rzOREFBKjZpY9gGAQyQDiwsBi14gdzkOAp/ObXsXb7BtDDZLTqNuL7cY5gFn7VChv/TwDPSBqkfmA8nsoPtfXXgyrgXMqhI7jh5TRx6Tm4i3Q/I/AQfkEFI/B+t+JJRBuSBIvOcgREqKE0SveTU//y6XaCsnYZoA1EGIhwtiXdYmU9eO52qAicga44wn7R3izs9BXCZdGeBPIqgyJDxEEKvux1LjmIR3kWve/X4pM9luiwDKOUwDq7LsOi17nmTPq8bMvD5byQ6NdniK4qE7Tiu6G8uYFR7o8I5/JuQm1cmYBCvw1HLNV7JYI5rHx5c3n+5sgTFc1CP4CqBB7iWiHSTNqQSLRTUVYznmyGCW1UhnFUplzrfv3fpLCRoqyk+TlLZVrLPASG6fT+QQFgWWrrvJtWPB7KUM2h7XtoBTyAYjPpIiNAJLM7gbvGsowUuoizhIVkBU6mFQ4ZT75J11kPLOEI3skU4GC7TqwJ6g/spHaCGQtqlCMQPS/5Y3EiiVmS6nKvTIa7f4J1reWGlOvb8Q2LWP6NIBEHrPs3kiocG7yPZy/jlODneEb7nwAAAABJRU5ErkJggg=="
+                      alt="instagram icon"
+                    />
+                  </a>
+                </li>
+                <li class="footer-icon__item">
+                  <a
+                    href="https://twitter.com"
+                    class="footer-icon__link"
+                    target="_blank"
+                  >
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHCSURBVHgB7ZRfTsJAEMa/WRvA+Ce9gfXNmIh4A7xB5QLGG+AJ9AboCYwnYD2B9QYVE1/tEUg0Cig7zqIo1G2h+Mrvod3OTueb3dlZYMkMCAvCYeD34NfseFXH0VwCg3C3VtKPMWYwaFRbzGhOmBL5vmQo7SlzbAzfl/WDthNq7PEW1upM3q0VyQv+3qiepYJbAiK0FJmnD4PtEp6j8YT69RkG8vCtSC+sNl3B38KdwDDOkcMKYb+HzaZDgJPvgW+z6Tf22nZV079XAsxgyLhZ1Z3z8fdUDfpH1Sd5BZM2cYgNzB2xFxkMfUV0lSdgWG1L0ZM/AvZUDLBRB1ErLVKEcrszlbQ3HvSwXpPs2vgfSdrwU4MKvNjlUAQiijIFSMfdd/44kmEXi2I4yhSwrNsmYz6xhUVxkpLuXKeNXtrAoLq8cpvNBWX0h0obylDWsdgKiLQre6eArYUctQMjWyVpacwmMYZOsyaVy2h7wlO0BR5tVyajJmR1ONlYDp8vXuX+8RTvSxECqYOtgZ8Tuyt30mUF6sKuGPlJ/NIP90JZ0/F35n8E5BZNGLieJ7BTYJIXubZXoEYiQ5juGkrJvEGXFOITLcymJF7E4vAAAAAASUVORK5CYII="
+                      alt="twitter icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__text">© Bakerlab 2022</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
